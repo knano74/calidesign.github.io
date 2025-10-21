@@ -628,7 +628,7 @@ padding-bottom: 180px;
 
     /* ======== FOOTER STYLING ======== */
 .footer {
-  background: linear-gradient(90deg, rgba(110, 231, 183, 0.03), rgba(52, 211, 153, 0.02));
+  background:  linear-gradient(180deg, var(--bg), #110c07 80%);
   color: #dbdbdb;
   padding: 60px 20px 20px;
   font-family: 'Poppins', sans-serif;
@@ -703,6 +703,7 @@ padding-bottom: 180px;
 }
 
     
+
 
 
 
