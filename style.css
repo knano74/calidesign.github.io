@@ -161,7 +161,7 @@ section
   text-decoration: none;
   border-radius: 8px;
   border: none;
-  background: rgb(255, 23, 2);;
+  background: rgb(255, 23, 2);
   color: #dbdbdb;
   cursor: pointer;
   box-shadow: 0 6px 18px rgba(37,99,235,0.18);
@@ -703,6 +703,7 @@ padding-bottom: 180px;
 }
 
     
+
 
 
 
