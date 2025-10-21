@@ -2,6 +2,7 @@
 {
     margin: 0;
     padding: 0;
+    color: #dbdbdb;
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
     font-style: normal;
@@ -627,8 +628,8 @@ padding-bottom: 180px;
 
     /* ======== FOOTER STYLING ======== */
 .footer {
-  background: #0d0d0d;
-  color: #fff;
+  background: linear-gradient(90deg, rgba(110, 231, 183, 0.03), rgba(52, 211, 153, 0.02));
+  color: #dbdbdb;
   padding: 60px 20px 20px;
   font-family: 'Poppins', sans-serif;
 }
@@ -645,18 +646,18 @@ padding-bottom: 180px;
 
 .footer-logo h2 {
   font-size: 1.8rem;
-  color: #fff;
+  color: #dbdbdb;
 }
 .footer-logo span {
   color: #00bcd4;
 }
 .footer-logo p {
-  color: #aaa;
+  color: #dbdbdb;
   font-size: 0.9rem;
 }
 
 .footer-links a {
-  color: #ccc;
+  color: var(--muted);
   margin: 0 10px;
   text-decoration: none;
   font-size: 0.95rem;
@@ -702,5 +703,6 @@ padding-bottom: 180px;
 }
 
     
+
 
 
