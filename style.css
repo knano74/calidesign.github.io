@@ -703,6 +703,58 @@ padding-bottom: 180px;
 }
 
     
+ /*style for the mobile first*/
+    @media (max-width: 768px)
+    {
+    section
+    {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding-top: 120px;
+    }
+
+    .grid-container
+    {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .grid-img
+    {
+        width: 250px;
+        margin: 0;
+    }
+
+    #img2
+    {
+        width: 250px;
+        margin: 0;
+    }
+
+    .home-content h1
+    {
+        font-size: 40px;
+    }
+
+    .about-content h2
+    {
+        font-size: 28px;
+    }
+
+    .navbar a
+    {
+        margin: 0 8px;
+        font-size: 16px;
+    }
+
+    .contact-box input[type="text"],
+    .contact-box input[type="email"],
+    .contact-box textarea
+    {
+        width: 100%;
+    }
+}
 
 
 
