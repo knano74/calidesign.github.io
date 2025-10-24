@@ -185,6 +185,31 @@ section
   transform: translateY(0);      /* tweak if needed */
 }
 
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cookie-banner button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.cookie-banner.hidden {
+  display: none;
+}
+
+
 /* optional: smaller icons on mobile */
 @media (max-width: 480px) {
   .icon-row .bx { font-size: 1rem; }
@@ -755,6 +780,7 @@ padding-bottom: 180px;
         width: 100%;
     }
 }
+
 
 
 
