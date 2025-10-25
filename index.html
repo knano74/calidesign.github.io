@@ -266,18 +266,33 @@
     <section class="contact-container">
         <div class="contact-box">
             <h2>Contact Me</h2>
-            <form action="https://formspree.io/f/xzzjnlrq" method="POST">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+             <!-- Form action API Endpoint  -->
+  <form action="https://api.web3forms.com/submit" method="POST" id="form">
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="_replyto" required>
+    <!-- Your Access key here. Don't worry this can be public -->
+    <input type="hidden" name="access_key" value="20db55f3-4fad-4e7a-9780-ae08a209e62c">
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+    <!-- Optional: Can be type="hidden" or type="text" for subject -->
+    <input type="hidden" name="subject" value="New Submission from Web3Forms">
 
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+    <!-- Optional: From Name you want to see in the email
+          Default is "Notifications". you can overwrite here -->
+    <input type="hidden" name="from_name" value="https://knano74.github.io/calidesign.github.io/">
+
+    <!-- Optional: Redirect URL after form submission -->
+    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+    <!-- Optional: Add botcheck for basic spam protection. captcha is recommened -->
+    <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+    <!-- Add your form fields here -->
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <textarea name="message" required></textarea>
+
+    <button type="submit">Submit</button>
+
+</form>
         </div>
     </section>
     <!-- ======== FOOTER SECTION ======== -->
@@ -335,6 +350,7 @@
 
 
 </html>
+
 
 
 
